@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		931CDC8924E0824E0061B405 /* CoverArtGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CDC8824E0824E0061B405 /* CoverArtGridApp.swift */; };
-		931CDC8B24E0824E0061B405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931CDC8A24E0824E0061B405 /* ContentView.swift */; };
-		931CDC8D24E0824F0061B405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931CDC8C24E0824F0061B405 /* Assets.xcassets */; };
-		931CDC9024E0824F0061B405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931CDC8F24E0824F0061B405 /* Preview Assets.xcassets */; };
+		9366190424E08494005449CA /* CoverArtGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936618F124E08494005449CA /* CoverArtGridApp.swift */; };
+		9366190524E08494005449CA /* CoverArtGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936618F124E08494005449CA /* CoverArtGridApp.swift */; };
+		9366190624E08494005449CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936618F224E08494005449CA /* ContentView.swift */; };
+		9366190724E08494005449CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936618F224E08494005449CA /* ContentView.swift */; };
+		9366190824E08494005449CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936618F324E08494005449CA /* Assets.xcassets */; };
+		9366190924E08494005449CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936618F324E08494005449CA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		931CDC8524E0824E0061B405 /* CoverArtGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverArtGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		931CDC8824E0824E0061B405 /* CoverArtGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverArtGridApp.swift; sourceTree = "<group>"; };
-		931CDC8A24E0824E0061B405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		931CDC8C24E0824F0061B405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		931CDC8F24E0824F0061B405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		931CDC9124E0824F0061B405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936618F124E08494005449CA /* CoverArtGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverArtGridApp.swift; sourceTree = "<group>"; };
+		936618F224E08494005449CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		936618F324E08494005449CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		936618F824E08494005449CA /* CoverArtGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverArtGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		936618FB24E08494005449CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9366190024E08494005449CA /* CoverArtGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverArtGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9366190224E08494005449CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9366190324E08494005449CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		931CDC8224E0824E0061B405 /* Frameworks */ = {
+		936618F524E08494005449CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936618FD24E08494005449CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,77 +44,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		931CDC7C24E0824E0061B405 = {
+		936618EB24E08494005449CA = {
 			isa = PBXGroup;
 			children = (
-				931CDC8724E0824E0061B405 /* CoverArtGrid */,
-				931CDC8624E0824E0061B405 /* Products */,
+				936618F024E08494005449CA /* Shared */,
+				936618FA24E08494005449CA /* iOS */,
+				9366190124E08494005449CA /* macOS */,
+				936618F924E08494005449CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		931CDC8624E0824E0061B405 /* Products */ = {
+		936618F024E08494005449CA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				931CDC8524E0824E0061B405 /* CoverArtGrid.app */,
+				936618F124E08494005449CA /* CoverArtGridApp.swift */,
+				936618F224E08494005449CA /* ContentView.swift */,
+				936618F324E08494005449CA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		936618F924E08494005449CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936618F824E08494005449CA /* CoverArtGrid.app */,
+				9366190024E08494005449CA /* CoverArtGrid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		931CDC8724E0824E0061B405 /* CoverArtGrid */ = {
+		936618FA24E08494005449CA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				931CDC8824E0824E0061B405 /* CoverArtGridApp.swift */,
-				931CDC8A24E0824E0061B405 /* ContentView.swift */,
-				931CDC8C24E0824F0061B405 /* Assets.xcassets */,
-				931CDC9124E0824F0061B405 /* Info.plist */,
-				931CDC8E24E0824F0061B405 /* Preview Content */,
+				936618FB24E08494005449CA /* Info.plist */,
 			);
-			path = CoverArtGrid;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		931CDC8E24E0824F0061B405 /* Preview Content */ = {
+		9366190124E08494005449CA /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				931CDC8F24E0824F0061B405 /* Preview Assets.xcassets */,
+				9366190224E08494005449CA /* Info.plist */,
+				9366190324E08494005449CA /* macOS.entitlements */,
 			);
-			path = "Preview Content";
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		931CDC8424E0824E0061B405 /* CoverArtGrid */ = {
+		936618F724E08494005449CA /* CoverArtGrid (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 931CDC9424E0824F0061B405 /* Build configuration list for PBXNativeTarget "CoverArtGrid" */;
+			buildConfigurationList = 9366190C24E08494005449CA /* Build configuration list for PBXNativeTarget "CoverArtGrid (iOS)" */;
 			buildPhases = (
-				931CDC8124E0824E0061B405 /* Sources */,
-				931CDC8224E0824E0061B405 /* Frameworks */,
-				931CDC8324E0824E0061B405 /* Resources */,
+				936618F424E08494005449CA /* Sources */,
+				936618F524E08494005449CA /* Frameworks */,
+				936618F624E08494005449CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoverArtGrid;
-			productName = CoverArtGrid;
-			productReference = 931CDC8524E0824E0061B405 /* CoverArtGrid.app */;
+			name = "CoverArtGrid (iOS)";
+			productName = "CoverArtGrid (iOS)";
+			productReference = 936618F824E08494005449CA /* CoverArtGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		936618FF24E08494005449CA /* CoverArtGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9366190F24E08494005449CA /* Build configuration list for PBXNativeTarget "CoverArtGrid (macOS)" */;
+			buildPhases = (
+				936618FC24E08494005449CA /* Sources */,
+				936618FD24E08494005449CA /* Frameworks */,
+				936618FE24E08494005449CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoverArtGrid (macOS)";
+			productName = "CoverArtGrid (macOS)";
+			productReference = 9366190024E08494005449CA /* CoverArtGrid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		931CDC7D24E0824E0061B405 /* Project object */ = {
+		936618EC24E08494005449CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					931CDC8424E0824E0061B405 = {
+					936618F724E08494005449CA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					936618FF24E08494005449CA = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 931CDC8024E0824E0061B405 /* Build configuration list for PBXProject "CoverArtGrid" */;
+			buildConfigurationList = 936618EF24E08494005449CA /* Build configuration list for PBXProject "CoverArtGrid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +152,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 931CDC7C24E0824E0061B405;
-			productRefGroup = 931CDC8624E0824E0061B405 /* Products */;
+			mainGroup = 936618EB24E08494005449CA;
+			productRefGroup = 936618F924E08494005449CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				931CDC8424E0824E0061B405 /* CoverArtGrid */,
+				936618F724E08494005449CA /* CoverArtGrid (iOS) */,
+				936618FF24E08494005449CA /* CoverArtGrid (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		931CDC8324E0824E0061B405 /* Resources */ = {
+		936618F624E08494005449CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931CDC9024E0824F0061B405 /* Preview Assets.xcassets in Resources */,
-				931CDC8D24E0824F0061B405 /* Assets.xcassets in Resources */,
+				9366190824E08494005449CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936618FE24E08494005449CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9366190924E08494005449CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		931CDC8124E0824E0061B405 /* Sources */ = {
+		936618F424E08494005449CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931CDC8B24E0824E0061B405 /* ContentView.swift in Sources */,
-				931CDC8924E0824E0061B405 /* CoverArtGridApp.swift in Sources */,
+				9366190624E08494005449CA /* ContentView.swift in Sources */,
+				9366190424E08494005449CA /* CoverArtGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936618FC24E08494005449CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9366190724E08494005449CA /* ContentView.swift in Sources */,
+				9366190524E08494005449CA /* CoverArtGridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		931CDC9224E0824F0061B405 /* Debug */ = {
+		9366190A24E08494005449CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,17 +255,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		931CDC9324E0824F0061B405 /* Release */ = {
+		9366190B24E08494005449CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,82 +308,137 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		931CDC9524E0824F0061B405 /* Debug */ = {
+		9366190D24E08494005449CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoverArtGrid/Preview Content\"";
 				DEVELOPMENT_TEAM = A5L5S7CN8F;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoverArtGrid/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prsclla.CoverArtGrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoverArtGrid;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		931CDC9624E0824F0061B405 /* Release */ = {
+		9366190E24E08494005449CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoverArtGrid/Preview Content\"";
 				DEVELOPMENT_TEAM = A5L5S7CN8F;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoverArtGrid/Info.plist;
+				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.prsclla.CoverArtGrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoverArtGrid;
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9366191024E08494005449CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5L5S7CN8F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prsclla.CoverArtGrid;
+				PRODUCT_NAME = CoverArtGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9366191124E08494005449CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5L5S7CN8F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prsclla.CoverArtGrid;
+				PRODUCT_NAME = CoverArtGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		931CDC8024E0824E0061B405 /* Build configuration list for PBXProject "CoverArtGrid" */ = {
+		936618EF24E08494005449CA /* Build configuration list for PBXProject "CoverArtGrid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				931CDC9224E0824F0061B405 /* Debug */,
-				931CDC9324E0824F0061B405 /* Release */,
+				9366190A24E08494005449CA /* Debug */,
+				9366190B24E08494005449CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		931CDC9424E0824F0061B405 /* Build configuration list for PBXNativeTarget "CoverArtGrid" */ = {
+		9366190C24E08494005449CA /* Build configuration list for PBXNativeTarget "CoverArtGrid (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				931CDC9524E0824F0061B405 /* Debug */,
-				931CDC9624E0824F0061B405 /* Release */,
+				9366190D24E08494005449CA /* Debug */,
+				9366190E24E08494005449CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9366190F24E08494005449CA /* Build configuration list for PBXNativeTarget "CoverArtGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9366191024E08494005449CA /* Debug */,
+				9366191124E08494005449CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 931CDC7D24E0824E0061B405 /* Project object */;
+	rootObject = 936618EC24E08494005449CA /* Project object */;
 }

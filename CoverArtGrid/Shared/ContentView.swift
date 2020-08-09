@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  CoverArtGrid
+//  Shared
 //
 //  Created by Priscilla Ip on 2020-08-09.
 //
