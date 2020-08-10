@@ -1,20 +1,21 @@
 //
-//  ContentView.swift
-//  Shared
+//  TabBar.swift
+//  CoverArtGrid (iOS)
 //
 //  Created by Priscilla Ip on 2020-08-09.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabBar: View {
     var body: some View {
-        GridView()
+        TabView {
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabBar()
     }
 }

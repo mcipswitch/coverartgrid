@@ -13,6 +13,16 @@
 		9366190724E08494005449CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936618F224E08494005449CA /* ContentView.swift */; };
 		9366190824E08494005449CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936618F324E08494005449CA /* Assets.xcassets */; };
 		9366190924E08494005449CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936618F324E08494005449CA /* Assets.xcassets */; };
+		9366191324E08577005449CA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191224E08577005449CA /* TabBar.swift */; };
+		9366191524E08913005449CA /* CoverArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191424E08913005449CA /* CoverArt.swift */; };
+		9366191624E08913005449CA /* CoverArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191424E08913005449CA /* CoverArt.swift */; };
+		9366191924E08F5E005449CA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191824E08F5E005449CA /* GridView.swift */; };
+		9366191A24E08F5E005449CA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191824E08F5E005449CA /* GridView.swift */; };
+		9366191D24E0954E005449CA /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191C24E0954E005449CA /* AlbumDetail.swift */; };
+		9366191E24E0954E005449CA /* AlbumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191C24E0954E005449CA /* AlbumDetail.swift */; };
+		9366192024E0A616005449CA /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191F24E0A616005449CA /* Album.swift */; };
+		9366192124E0A616005449CA /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366191F24E0A616005449CA /* Album.swift */; };
+		9366192424E0AE03005449CA /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9366192324E0AE03005449CA /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,12 @@
 		9366190024E08494005449CA /* CoverArtGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverArtGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9366190224E08494005449CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9366190324E08494005449CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9366191224E08577005449CA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9366191424E08913005449CA /* CoverArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverArt.swift; sourceTree = "<group>"; };
+		9366191824E08F5E005449CA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		9366191C24E0954E005449CA /* AlbumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetail.swift; sourceTree = "<group>"; };
+		9366191F24E0A616005449CA /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		9366192324E0AE03005449CA /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,10 @@
 			children = (
 				936618F124E08494005449CA /* CoverArtGridApp.swift */,
 				936618F224E08494005449CA /* ContentView.swift */,
+				9366192224E0A619005449CA /* Model */,
+				9366191B24E08F80005449CA /* Views */,
+				9366191724E08EFE005449CA /* Items */,
+				9366191224E08577005449CA /* TabBar.swift */,
 				936618F324E08494005449CA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +96,7 @@
 		936618FA24E08494005449CA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				9366192324E0AE03005449CA /* VisualEffectBlur.swift */,
 				936618FB24E08494005449CA /* Info.plist */,
 			);
 			path = iOS;
@@ -88,6 +109,31 @@
 				9366190324E08494005449CA /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9366191724E08EFE005449CA /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				9366191424E08913005449CA /* CoverArt.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		9366191B24E08F80005449CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9366191824E08F5E005449CA /* GridView.swift */,
+				9366191C24E0954E005449CA /* AlbumDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9366192224E0A619005449CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9366191F24E0A616005449CA /* Album.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9366191324E08577005449CA /* TabBar.swift in Sources */,
 				9366190624E08494005449CA /* ContentView.swift in Sources */,
+				9366191D24E0954E005449CA /* AlbumDetail.swift in Sources */,
 				9366190424E08494005449CA /* CoverArtGridApp.swift in Sources */,
+				9366191924E08F5E005449CA /* GridView.swift in Sources */,
+				9366192024E0A616005449CA /* Album.swift in Sources */,
+				9366191524E08913005449CA /* CoverArt.swift in Sources */,
+				9366192424E0AE03005449CA /* VisualEffectBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9366191E24E0954E005449CA /* AlbumDetail.swift in Sources */,
 				9366190724E08494005449CA /* ContentView.swift in Sources */,
+				9366191624E08913005449CA /* CoverArt.swift in Sources */,
+				9366191A24E08F5E005449CA /* GridView.swift in Sources */,
 				9366190524E08494005449CA /* CoverArtGridApp.swift in Sources */,
+				9366192124E0A616005449CA /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
